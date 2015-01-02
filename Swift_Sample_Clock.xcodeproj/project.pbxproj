@@ -13,6 +13,17 @@
 		2A24DAB41A530B5E00CE2A8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A24DAB31A530B5E00CE2A8F /* Images.xcassets */; };
 		2A24DAB71A530B5E00CE2A8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A24DAB51A530B5E00CE2A8F /* LaunchScreen.xib */; };
 		2A24DAC31A530B5E00CE2A8F /* Swift_Sample_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A24DAC21A530B5E00CE2A8F /* Swift_Sample_ClockTests.swift */; };
+		2A9A41F21A56D1350040E121 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41E71A56D1350040E121 /* 0.png */; };
+		2A9A41F31A56D1350040E121 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41E81A56D1350040E121 /* 1.png */; };
+		2A9A41F41A56D1350040E121 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41E91A56D1350040E121 /* 2.png */; };
+		2A9A41F51A56D1350040E121 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41EA1A56D1350040E121 /* 3.png */; };
+		2A9A41F61A56D1350040E121 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41EB1A56D1350040E121 /* 4.png */; };
+		2A9A41F71A56D1350040E121 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41EC1A56D1350040E121 /* 5.png */; };
+		2A9A41F81A56D1350040E121 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41ED1A56D1350040E121 /* 6.png */; };
+		2A9A41F91A56D1350040E121 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41EE1A56D1350040E121 /* 7.png */; };
+		2A9A41FA1A56D1350040E121 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41EF1A56D1350040E121 /* 8.png */; };
+		2A9A41FB1A56D1350040E121 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41F01A56D1350040E121 /* 9.png */; };
+		2A9A41FC1A56D1350040E121 /* コロン.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A41F11A56D1350040E121 /* コロン.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		2A24DABC1A530B5E00CE2A8F /* Swift_Sample_ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_Sample_ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A24DAC11A530B5E00CE2A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A24DAC21A530B5E00CE2A8F /* Swift_Sample_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Sample_ClockTests.swift; sourceTree = "<group>"; };
+		2A9A41E71A56D1350040E121 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		2A9A41E81A56D1350040E121 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2A9A41E91A56D1350040E121 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2A9A41EA1A56D1350040E121 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2A9A41EB1A56D1350040E121 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2A9A41EC1A56D1350040E121 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2A9A41ED1A56D1350040E121 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		2A9A41EE1A56D1350040E121 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		2A9A41EF1A56D1350040E121 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		2A9A41F01A56D1350040E121 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		2A9A41F11A56D1350040E121 /* コロン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "コロン.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		2A24DAA91A530B5E00CE2A8F /* Swift_Sample_Clock */ = {
 			isa = PBXGroup;
 			children = (
+				2A9A41E61A56D1350040E121 /* images */,
 				2A24DAAC1A530B5E00CE2A8F /* AppDelegate.swift */,
 				2A24DAAE1A530B5E00CE2A8F /* ViewController.swift */,
 				2A24DAB01A530B5E00CE2A8F /* Main.storyboard */,
@@ -110,6 +133,24 @@
 				2A24DAC11A530B5E00CE2A8F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A9A41E61A56D1350040E121 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2A9A41E71A56D1350040E121 /* 0.png */,
+				2A9A41E81A56D1350040E121 /* 1.png */,
+				2A9A41E91A56D1350040E121 /* 2.png */,
+				2A9A41EA1A56D1350040E121 /* 3.png */,
+				2A9A41EB1A56D1350040E121 /* 4.png */,
+				2A9A41EC1A56D1350040E121 /* 5.png */,
+				2A9A41ED1A56D1350040E121 /* 6.png */,
+				2A9A41EE1A56D1350040E121 /* 7.png */,
+				2A9A41EF1A56D1350040E121 /* 8.png */,
+				2A9A41F01A56D1350040E121 /* 9.png */,
+				2A9A41F11A56D1350040E121 /* コロン.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +233,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9A41FA1A56D1350040E121 /* 8.png in Resources */,
+				2A9A41F91A56D1350040E121 /* 7.png in Resources */,
+				2A9A41F41A56D1350040E121 /* 2.png in Resources */,
+				2A9A41F21A56D1350040E121 /* 0.png in Resources */,
+				2A9A41FB1A56D1350040E121 /* 9.png in Resources */,
 				2A24DAB21A530B5E00CE2A8F /* Main.storyboard in Resources */,
 				2A24DAB71A530B5E00CE2A8F /* LaunchScreen.xib in Resources */,
+				2A9A41F81A56D1350040E121 /* 6.png in Resources */,
+				2A9A41F61A56D1350040E121 /* 4.png in Resources */,
 				2A24DAB41A530B5E00CE2A8F /* Images.xcassets in Resources */,
+				2A9A41F71A56D1350040E121 /* 5.png in Resources */,
+				2A9A41FC1A56D1350040E121 /* コロン.png in Resources */,
+				2A9A41F51A56D1350040E121 /* 3.png in Resources */,
+				2A9A41F31A56D1350040E121 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +457,7 @@
 				2A24DAC81A530B5E00CE2A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A24DAC91A530B5E00CE2A8F /* Build configuration list for PBXNativeTarget "Swift_Sample_ClockTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +466,7 @@
 				2A24DACB1A530B5E00CE2A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -57,13 +57,263 @@ class ViewController: UIViewController {
                                                         repeats: true)
     }
     func time(){
-        var calender:NSCalendar = NSCalendar.alloc()
+        let myDate: NSDate = NSDate()
+        //カレンダーを取得.
+        let myCalendar: NSCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
         
-        var hour:Int
-        var minute:Int
-        var second:Int
+        //取得するコンポーネントを決める.
+        let myComponetns = myCalendar.components(NSCalendarUnit.CalendarUnitYear   |
+            NSCalendarUnit.CalendarUnitMonth  |
+            NSCalendarUnit.CalendarUnitDay    |
+            NSCalendarUnit.CalendarUnitHour   |
+            NSCalendarUnit.CalendarUnitMinute |
+            NSCalendarUnit.CalendarUnitSecond,
+            fromDate: myDate)
+        
+        var hour:Int = myComponetns.hour
+        var minute:Int = myComponetns.minute
+        var second:Int = myComponetns.second
+        
+        if (hour>9) {
+            hour2 = hour/10
+            hour1 = hour - (hour/10)*10
+        }
+        else {
+            hour2 = 0
+            hour1 = hour
+        }
+        
+        if (minute>9) {
+            minute2 = minute/10
+            minute1 = minute - (minute/10)*10
+        }
+        else {
+            minute2 = 0;
+            minute1 = minute;
+        }
+        if (second>9) {
+            second2 = second/10;
+            second1 = second - (second/10)*10
+        }
+        else {
+            second2 = 0;
+            second1 = second;
+        }
+        
+        draw()
+    }
+    
+    func draw(){
+        switch(hour2){
+        case 0:
+            hour2ImageView.image = image0
+            break
+        case 1:
+            hour2ImageView.image = image1
+            break
+        case 2:
+            hour2ImageView.image = image2
+            break
+        case 3:
+            hour2ImageView.image = image3
+            break
+        case 4:
+            hour2ImageView.image = image4
+            break
+        case 5:
+            hour2ImageView.image = image5
+            break
+        case 6:
+            hour2ImageView.image = image6
+            break
+        case 7:
+            hour2ImageView.image = image7
+            break
+        case 8:
+            hour2ImageView.image = image8
+            break
+        case 9:
+            hour2ImageView.image = image9
+            break
+        default:
+            break
+        }
+        switch(hour1){
+        case 0:
+            hour1ImageView.image = image0
+            break
+        case 1:
+            hour1ImageView.image = image1
+            break
+        case 2:
+            hour1ImageView.image = image2
+            break
+        case 3:
+            hour1ImageView.image = image3
+            break
+        case 4:
+            hour1ImageView.image = image4
+            break
+        case 5:
+            hour1ImageView.image = image5
+            break
+        case 6:
+            hour1ImageView.image = image6
+            break
+        case 7:
+            hour1ImageView.image = image7
+            break
+        case 8:
+            hour1ImageView.image = image8
+            break
+        case 9:
+            hour1ImageView.image = image9
+            break
+        default:
+            break
+        }
+        
+        switch(minute2){
+        case 0:
+            minute2ImageView.image = image0
+            break
+        case 1:
+            minute2ImageView.image = image1
+            break
+        case 2:
+            minute2ImageView.image = image2
+            break
+        case 3:
+            minute2ImageView.image = image3
+            break
+        case 4:
+            minute2ImageView.image = image4
+            break
+        case 5:
+            minute2ImageView.image = image5
+            break
+        case 6:
+            minute2ImageView.image = image6
+            break
+        case 7:
+            minute2ImageView.image = image7
+            break
+        case 8:
+            minute2ImageView.image = image8
+            break
+        case 9:
+            minute2ImageView.image = image9
+            break
+        default:
+            break
+        }
+        
+        switch(minute1){
+        case 0:
+            minute1ImageView.image = image0
+            break
+        case 1:
+            minute1ImageView.image = image1
+            break
+        case 2:
+            minute1ImageView.image = image2
+            break
+        case 3:
+            minute1ImageView.image = image3
+            break
+        case 4:
+            minute1ImageView.image = image4
+            break
+        case 5:
+            minute1ImageView.image = image5
+            break
+        case 6:
+            minute1ImageView.image = image6
+            break
+        case 7:
+            minute1ImageView.image = image7
+            break
+        case 8:
+            minute1ImageView.image = image8
+            break
+        case 9:
+            minute1ImageView.image = image9
+            break
+        default:
+            break
+        }
+        switch(second2){
+        case 0:
+            second2ImageView.image = image0
+            break
+        case 1:
+            second2ImageView.image = image1
+            break
+        case 2:
+            second2ImageView.image = image2
+            break
+        case 3:
+            second2ImageView.image = image3
+            break
+        case 4:
+            second2ImageView.image = image4
+            break
+        case 5:
+            second2ImageView.image = image5
+            break
+        case 6:
+            second2ImageView.image = image6
+            break
+        case 7:
+            second2ImageView.image = image7
+            break
+        case 8:
+            second2ImageView.image = image8
+            break
+        case 9:
+            second2ImageView.image = image9
+            break
+        default:
+            break
+        }
+        
+        switch(second1){
+        case 0:
+            second1ImageView.image = image0
+            break
+        case 1:
+            second1ImageView.image = image1
+            break
+        case 2:
+            second1ImageView.image = image2
+            break
+        case 3:
+            second1ImageView.image = image3
+            break
+        case 4:
+            second1ImageView.image = image4
+            break
+        case 5:
+            second1ImageView.image = image5
+            break
+        case 6:
+            second1ImageView.image = image6
+            break
+        case 7:
+            second1ImageView.image = image7
+            break
+        case 8:
+            second1ImageView.image = image8
+            break
+        case 9:
+            second1ImageView.image = image9
+            break
+        default:
+            break
+        }
         
     }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
